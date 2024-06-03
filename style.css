@@ -4,3 +4,27 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin: 50px 200px 0px 140px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 55px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #212832;
+}
+
+#sign-up {
+    margin-right: 55px;
+    padding: 9px 22px;
+}
+
+#En {
+    margin-right: 7px;
+}
