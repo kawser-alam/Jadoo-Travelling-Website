@@ -30,7 +30,7 @@ nav a {
     margin-right: 7px;
 }
 
-/* banner  */
+/* banner section */
 
 .banner {
     display: flex;
@@ -73,4 +73,48 @@ nav a {
     margin-top: 27px;
     width: 765px;
     height: 764px;
+}
+
+/* catagory section  */
+
+.catag {
+    margin-top: 105px;
+    margin-bottom: 0px;
+    color: #5E6282;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.offer {
+    margin-top: 10px;
+    color: #14183E;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.catagoryItems {
+    display: flex;
+    margin: 68px 197px 0px 154px;
+    justify-content: space-between;
+
+}
+
+.infoTitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #1E1D4C;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.infoDescription {
+    color: #5E6282;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
