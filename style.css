@@ -118,3 +118,80 @@ nav a {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* top selling section  */
+
+.topSelling p {
+    margin-top: 150px;
+    margin-bottom: 8px;
+    color: #5E6282;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.topSelling h3 {
+    margin-top: 0px;
+    margin-bottom: 80px;
+    color: #14183E;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-weight: 700;
+}
+.topsell{
+    display: flex;
+    margin: 0px 227px 0px 174px;
+    justify-content: space-between;
+}
+
+.sellImg {
+    width: 314px;
+    height: 457px;
+    margin-bottom: 0px;
+}
+
+.sellDetails {
+    display: flex;
+    gap: 103px;
+    padding-left: 20px;
+}
+
+.name {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.view {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tripTime {
+    display: flex;
+    padding-left: 20px;
+}
+
+.tripTime img {
+    margin-top: 0px;
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+
+.tripTime p {
+    margin-top: 0px;
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tripDetails {
+    margin-top: -7px;
+    width: 314px;
+    height: 100px;
+    border-radius: 0px 0px 24px 24px;
+    background: #f5f3f3;
+}
