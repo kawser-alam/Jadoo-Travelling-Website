@@ -5,11 +5,12 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* nav bar  */
+
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    margin: 50px 200px 0px 140px;
+    margin: 50px 154px 0px 140px;
 }
 
 nav a {
@@ -27,4 +28,49 @@ nav a {
 
 #En {
     margin-right: 7px;
+}
+
+/* banner  */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 110px;
+
+}
+
+.text {
+    margin-top: 134px;
+}
+
+#text1 {
+    color: #DF6951;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+#text2 {
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 84px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+#text3 {
+    margin-top: 0px;
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 400;
+    width: 477px;
+}
+
+.bannerImage {
+    margin-top: 27px;
+    width: 765px;
+    height: 764px;
 }
