@@ -321,3 +321,61 @@ nav a {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* testimonials section  */
+
+.testimonials {
+    display: flex;
+    margin-left: 250px;
+}
+
+.about p {
+    margin: 209px 500px 10px 0px;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about h4 {
+    margin: 0px 500px 82px 0px;
+    color: #14183E;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about img {
+    margin: 0px 500px 0px 0px;
+    margin-bottom: 0px;
+    width: 87px;
+    height: 12px;
+}
+
+.aboutImg {
+    margin-top: 214px;
+    width: 68px;
+    height: 68px;
+}
+
+.details {
+    margin-top: 276px;
+    margin-bottom: 34px;
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 400;
+    width: 402px;
+}
+
+.kawser {
+    margin-bottom: 5px;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.address {
+    margin-top: 0px;
+    color: #5E6282;
+    font-size: 14px;
+    font-weight: 400;
+}
