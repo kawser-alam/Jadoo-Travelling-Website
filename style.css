@@ -3,8 +3,9 @@
 
 * {
     font-family: "Poppins", sans-serif;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
+    max-width: 1440px;
 }
 
 /* nav bar  */
@@ -12,7 +13,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 154px 0px 140px;
+    margin: 50px 154px 0px 90px;
 }
 
 nav a {
@@ -37,7 +38,7 @@ nav a {
 .banner {
     display: flex;
     justify-content: space-between;
-    margin-left: 150px;
+    margin-left: 155px;
     margin-right: 110px;
 
 }
@@ -57,7 +58,7 @@ nav a {
 #text2 {
     color: #181E4B;
     font-family: Volkhov;
-    font-size: 84px;
+    font-size: 78px;
     font-weight: 700;
     margin-top: 24px;
     margin-bottom: 30px;
@@ -74,16 +75,19 @@ nav a {
 .bannerButton {
     display: flex;
     margin-top: 34px;
+    margin-left: -100px;
 }
 
 .bannerButton img {
-    margin-left: 44px;
+    margin-left: -40px;
     margin-right: 21px;
     width: 55px;
     height: 55px;
 }
 
 .bannerButton p {
+    margin-top: 15px;
+    margin-left: -8px;
     color: #686D77;
     font-size: 17px;
     font-weight: 400;
@@ -129,7 +133,7 @@ nav a {
 
 .catagoryItems {
     display: flex;
-    margin: 68px 197px 0px 154px;
+    margin: 68px 155px 0px 95px;
     justify-content: space-between;
 
 }
@@ -174,7 +178,7 @@ nav a {
 
 .topsell {
     display: flex;
-    margin: 0px 227px 0px 174px;
+    margin: 0px 180px 0px 125px;
     justify-content: space-between;
 }
 
@@ -245,7 +249,7 @@ nav a {
 
 .nextTrip {
     display: flex;
-    margin: 200px 227px 0px 174px;
+    margin: 180px 75px 0px 20px;
     justify-content: space-around;
 }
 
@@ -267,6 +271,7 @@ nav a {
 
 .steps {
     display: flex;
+    margin-left: -18px;
 }
 
 .steps img {
@@ -274,7 +279,6 @@ nav a {
     margin-bottom: 0px;
     width: 47px;
     height: 48px;
-    margin-right: 24px;
 }
 
 .tripText {
@@ -358,18 +362,17 @@ nav a {
 
 .testimonials {
     display: flex;
-    margin-left: 250px;
 }
 
 .about p {
-    margin: 209px 500px 10px 0px;
+    margin: 209px 0px 10px 0px;
     color: #5E6282;
     font-size: 18px;
     font-weight: 600;
 }
 
 .about h4 {
-    margin: 0px 500px 82px 0px;
+    margin: 0px 0px 82px 0px;
     color: #14183E;
     font-family: Volkhov;
     font-size: 50px;
@@ -377,8 +380,6 @@ nav a {
 }
 
 .about img {
-    margin: 0px 500px 0px 0px;
-    margin-bottom: 0px;
     width: 87px;
     height: 12px;
 }
@@ -387,6 +388,10 @@ nav a {
     margin-top: 214px;
     width: 68px;
     height: 68px;
+}
+
+.aboutDetails {
+    margin-left: -150px;
 }
 
 .details {
@@ -416,7 +421,7 @@ nav a {
 
 .logo {
     display: flex;
-    margin: 112px 170px 0px 100px;
+    margin: 112px 145px 0px 85px;
     justify-content: space-around;
 }
 
@@ -428,16 +433,16 @@ nav a {
 
 .subsxribeDescription {
     margin-top: 124px;
-    margin-left: 135px;
-    width: 1570px;
+    margin-left: 160px;
+    width: 1070px;
     height: 407px;
-    border-radius: 129px 20px 20px 20px;
+    border-radius: 80px 20px 20px 20px;
     background: #eeecf1;
 }
 
 .subscribeImg {
     margin-top: 95px;
-    margin-left: -55px;
+    margin-left: -200px;
     width: 70px;
     height: 70px;
 }
@@ -445,46 +450,49 @@ nav a {
 .subscribe p {
     color: #504b4b;
     text-align: center;
-    font-size: 33px;
+    font-size: 29px;
     font-weight: 700;
     padding: 79px 144px 0px 145px;
 }
 
 .email {
-    margin-left: 500px;
-    margin-top: 36px;
+    margin-left: 240px;
+    margin-top: 70px;
     color: #000000;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     width: 421px;
     height: 68px;
     border-radius: 10px;
     background: #FFF;
+    border: none;
 }
 
 .email img {
     margin-right: 14px;
-    width: 21px;
+    margin-left: -230px;
+    width: 22px;
     height: 18px;
 }
 
 .subscribebtn {
-    margin-left: 24px;
+    margin-left: 20px;
     color: #FFF;
     text-align: center;
     font-size: 17px;
     font-weight: 600;
     width: 150px;
-    height: 66px;
+    height: 63px;
     border-radius: 10px;
     background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
+    border: none;
 }
 
 /* footer section */
 
 .footer {
     display: flex;
-    margin: 166px 229px 0px 186px;
+    margin: 166px 160px 0px 115px;
     justify-content: space-around;
 }
 
