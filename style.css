@@ -382,8 +382,68 @@ nav a {
 
 /* logo  */
 
-.logo{
+.logo {
     display: flex;
-   margin: 112px 170px 0px 100px;
-   justify-content: space-around;
+    margin: 112px 170px 0px 100px;
+    justify-content: space-around;
+}
+
+/* subscribe section  */
+
+.subscribe {
+    display: flex;
+}
+
+.subsxribeDescription {
+    margin-top: 124px;
+    margin-left: 135px;
+    width: 1570px;
+    height: 407px;
+    border-radius: 129px 20px 20px 20px;
+    background: #eeecf1;
+}
+
+.subscribeImg {
+    margin-top: 95px;
+    margin-left: -55px;
+    width: 70px;
+    height: 70px;
+}
+
+.subscribe p {
+    color: #504b4b;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    padding: 79px 144px 0px 145px;
+}
+
+.email {
+    margin-left: 500px;
+    margin-top: 74px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    width: 421px;
+    height: 68px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.email img {
+    margin-right: 14px;
+    width: 21px;
+    height: 18px;
+}
+
+.subscribebtn {
+    margin-left: 24px;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    width: 150px;
+    height: 66px;
+    border-radius: 10px;
+    background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
 }
