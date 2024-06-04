@@ -69,6 +69,36 @@ nav a {
     width: 477px;
 }
 
+.bannerButton {
+    display: flex;
+    margin-top: 34px;
+}
+
+.bannerButton img {
+    margin-left: 44px;
+    margin-right: 21px;
+    width: 55px;
+    height: 55px;
+}
+
+.bannerButton p {
+    color: #686D77;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    background: #F1A501;
+    border: none;
+}
+
 .bannerImage {
     margin-top: 27px;
     width: 765px;
