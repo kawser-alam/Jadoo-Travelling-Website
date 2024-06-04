@@ -420,7 +420,7 @@ nav a {
 
 .email {
     margin-left: 500px;
-    margin-top: 74px;
+    margin-top: 36px;
     color: #000000;
     font-size: 14px;
     font-weight: 400;
@@ -446,4 +446,95 @@ nav a {
     height: 66px;
     border-radius: 10px;
     background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
+}
+
+/* footer section */
+
+.footer {
+    display: flex;
+    margin: 166px 229px 0px 186px;
+    justify-content: space-around;
+}
+
+.jadoo h6 {
+    margin-top: 0px;
+    margin-bottom: 19px;
+    color: #181E4B;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.jadoo p {
+    margin-top: 0px;
+    color: #5E6282;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.company h6 {
+    margin-top: 0px;
+    margin-bottom: 34px;
+    color: #080809;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.company p {
+    margin-top: 0px;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact h6 {
+    margin-top: 0px;
+    margin-bottom: 34px;
+    color: #080809;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.contact p {
+    margin-top: 0px;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.more h6 {
+    margin-top: 0px;
+    margin-bottom: 34px;
+    color: #080809;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.more p {
+    margin-top: 0px;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.socialImg {
+    margin-bottom: 0px;
+    display: flex;
+    margin-right: 25px;
+}
+
+.social p {
+    margin-top: 26px;
+    margin-bottom: 16px;
+    color: #5E6282;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.appstore {
+    display: flex;
+    margin-top: 0px;
+}
+
+#playStore {
+    margin-right: 10px;
 }
